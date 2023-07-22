@@ -10,7 +10,7 @@ token = os.environ['BOT_TOKEN']
 globals.init()
 
 intents = discord.Intents.default() 
-intents.messages = True
+intents.messages = True 
 intents.message_content = True
 intents.members = True
 
